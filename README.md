@@ -31,6 +31,43 @@ captured by a webcam. The key steps involved in the project include:
 ![Initial frame](initial_frame.png)
 
 This is the initial frame where in top left corner test image is shown.
+#Region Of Interest
+
+![Region of Interest](Region.png)
+
+In this region, I will put my hand after calibration time to detect the hand.
+
+
+#Skin Detection
+
+![Skin Mask](skin_mask.png)
+
+YCrCb and HSV color spaces are used to create binary masks to detect hand only.
+
+#Combining Masks
+
+![Combined Mask](combined_mask.png)
+
+Combined mask is created to isolate the hand more accurately.
+
+#Contour Detection
+
+![Find Contours](contour.png)
+
+Contours are found by using cv2.findContours() which are ideal for detecting the outline of the hand.
+
+
+#Convex Hull Calculation and Find Tips
+
+![Finger Top Tips](finger_tip.png)
+
+I calculated convex hull to find the finger tips. After Calculating covex hull I took only top tip points.
+
+#Distance Calculation
+
+I calculated the euclidean distance between thumb finger's tip point and index finger's tip point. When the distance is decreased image size is decreased and when the distance is increased image size is increased.
+
+   
 
 
 
