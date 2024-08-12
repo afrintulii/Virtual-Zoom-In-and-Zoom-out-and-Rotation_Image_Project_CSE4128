@@ -1,8 +1,10 @@
 # Virtual-Zoom-In-and-Zoom-out-and-Rotation_Image_Project_CSE4128
-#Dynamic Image Gestures: Zoom in and out and Rotate
+# Dynamic Image Gestures: Zoom in and out and Rotate
 
 ##Introduction
+
 This project focuses on leveraging computer vision techniques to recognize hand gestures and manipulate an image accordingly. The system is designed to detect hand gestures using a webcam, segment the hand region,and apply the corresponding image transformation (zoom or rotate) based on the detected gestures.
+
 ##Features
 The project utilizes OpenCV, a powerful library for computer vision, to process video frames 
 captured by a webcam. The key steps involved in the project include:
@@ -19,6 +21,10 @@ captured by a webcam. The key steps involved in the project include:
    
 ##Programming Language
 1. Python 3.11.3
+
+###Project Screensorts
+#Initial Frame
+![Initial frame](screenshots/zoom-in-example.png)
 
    
 
