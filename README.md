@@ -73,9 +73,15 @@ The change in angle between the thumb and index finger is used to determine the 
 
 #Final Results
 
+#Zoom In Operation
+
 ![Zoom In Operation](zoom_in.png)
 
+#Zoom Out Operation
+
 ![Zoom Out Operation](zoom_out.png)
+
+#Rotation Operation
 
 ![Rotation Operation](Rotate.png)
 
