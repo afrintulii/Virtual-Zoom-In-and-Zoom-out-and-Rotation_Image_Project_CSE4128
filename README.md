@@ -6,6 +6,7 @@
 This project focuses on leveraging computer vision techniques to recognize hand gestures and manipulate an image accordingly. The system is designed to detect hand gestures using a webcam, segment the hand region,and apply the corresponding image transformation (zoom or rotate) based on the detected gestures.
 
 ##Features
+
 The project utilizes OpenCV, a powerful library for computer vision, to process video frames 
 captured by a webcam. The key steps involved in the project include:
 1. Capturing video input from the webcam.
@@ -23,8 +24,14 @@ captured by a webcam. The key steps involved in the project include:
 1. Python 3.11.3
 
 ###Project Screensorts
+
 #Initial Frame
+
+
 ![Initial frame](initial_frame.png)
+This is the initial frame where in top left corner test image is shown.
+
+
 
    
 
