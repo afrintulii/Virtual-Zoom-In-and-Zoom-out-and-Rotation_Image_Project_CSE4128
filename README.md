@@ -29,7 +29,12 @@ captured by a webcam. The key steps involved in the project include:
 
 
 ![Initial frame](initial_frame.png)
+
 This is the initial frame where in top left corner test image is shown.
+
+![Region of Interest](Region.png)
+
+In this region, I will put my hand after calibration time to detect the hand.
 
 
 
