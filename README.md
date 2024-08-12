@@ -24,7 +24,7 @@ captured by a webcam. The key steps involved in the project include:
 
 ###Project Screensorts
 #Initial Frame
-![Initial frame](screenshots/zoom-in-example.png)
+![Initial frame](initial_frame.png)
 
    
 
