@@ -67,8 +67,17 @@ I calculated convex hull to find the finger tips. After Calculating covex hull I
 
 I calculated the euclidean distance between thumb finger's tip point and index finger's tip point. When the distance is decreased image size is decreased and when the distance is increased image size is increased.
 
-   
+#Rotation Mode
 
+The change in angle between the thumb and index finger is used to determine the rotation of the image. The difference between the current angle and the initial angle (startAngle) indicates the degree of rotation.
+
+#Final Results
+
+![Zoom In Operation](zoom_in.png)
+
+![Zoom Out Operation](zoom_out.png)
+
+![Rotation Operation](Rotate.png)
 
 
    
